@@ -17,6 +17,7 @@ public class Gestion_Utilisateurs {
         }
     }
 
+    
     public void ajouter(String nom, String prenom, String email, String type,Connection connexion) {
         try {
             String query = "INSERT INTO utilisateurs (nom, prenom, email, type) VALUES (?, ?, ?, ?)";

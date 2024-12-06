@@ -20,6 +20,7 @@ public class Gestion_evenements{
             e.printStackTrace();
         }
     }
+    
      public void supprimer(int id_event, Connection connexion) {
     try {
         String query = "DELETE FROM evenements WHERE  id_event= ?";

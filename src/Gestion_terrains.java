@@ -4,6 +4,7 @@ import java.sql.*;
 
 public class Gestion_terrains {
     
+  
     
     
         public void supprimer(int id_terrain, Connection connexion) {
